@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    tools:context=".RegistroActivity">
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="339dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/browser_actions_bg_grey"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/nombreETRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/apellidosETRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/apellidos"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/usuarioETRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/usuario"
+            android:drawableRight="@drawable/ic_baseline_account_box_24"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/passwordETRegistrer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:drawableRight="@drawable/ic_baseline_emergency_24"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/emailETRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:drawableRight="@drawable/ic_baseline_alternate_email_24"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/phoneETRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_baseline_phone_android_24"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/telefono"
+            android:inputType="phone" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegistrer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="450dp"
+        android:text="Registrar" />
+
+    <TextView
+        android:id="@+id/TextViewInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:onClick="irInicio"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto_light"
+        android:text="Ya tienes una cuenta? Inicia aquí"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="520dp"/>
+</RelativeLayout>

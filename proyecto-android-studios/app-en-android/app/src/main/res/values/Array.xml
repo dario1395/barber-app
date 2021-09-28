@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="peluqueros">
+        <item>Borja</item>
+        <item>Ángel</item>
+    </string-array>
+
+    <string-array name="hora">
+        <item>9:00-10:00</item>
+        <item>10:00-11:00</item>
+        <item>11:00-12:00</item>
+    </string-array>
+
+
+    <string-array name="servicios">
+        <item>Corte de pelo</item>
+        <item>Corte de pelo y barba</item>
+        <item>Corte de pelo y lavado</item>
+        <item>Corte de pelo, barba y lavado</item>
+    </string-array>
+
+
+</resources>
